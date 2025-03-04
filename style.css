@@ -150,3 +150,43 @@ a {
     align-self: flex-end;
 }
 
+/* fourth section */
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 200px;
+}
+
+.action {
+    flex: 1;
+    display: flex;
+    background-color: #3882f6;
+    padding: 48px 128px;
+    color:#F9FAF8;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.action-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-button {
+    flex-grow: 0;
+    align-self: flex-end;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    color: #F9FAF8;
+    border: 3px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
