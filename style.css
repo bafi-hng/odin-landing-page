@@ -127,3 +127,26 @@ a {
     color: #1F2937;
 }
 
+/* third section */
+
+.third-section {
+    background-color:#E5E7EB;
+    display: flex;
+    padding: 128px 400px 100px 300px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
